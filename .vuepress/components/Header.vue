@@ -6,6 +6,6 @@
     ></div>
     <p>{{$page.frontmatter.description}}</p>
     <br />
-    <!-- &#x1F4A1; {{ $page.readingTime.text }} -->
+    &#x1F4A1; {{ $page.readingTime.text }}
   </div>
 </template>

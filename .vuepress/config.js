@@ -1,5 +1,16 @@
 // .vuepress/config.js
 module.exports = {
+  plugins: [
+    ['vuepress-plugin-reading-time', true],
+    [
+      'vuepress-plugin-container',
+      {
+        type: 'notice',
+        before: info => `<div class="notice"><p class="title">${info}</p>`,
+        after: '</div>',
+      },
+    ],
+  ],
   title: 'ocular-d Blog', // Title for the site. This will be displayed in the navbar.
   theme: '@vuepress/theme-blog',
   head: [
