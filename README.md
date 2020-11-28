@@ -31,3 +31,4 @@ Each check depends o each other
 - Build HTML
 - HTML Linkcheck
 - Changelog
+- Image optimizer
