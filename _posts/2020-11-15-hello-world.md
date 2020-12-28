@@ -2,7 +2,7 @@
 title: Hello World
 date: 2020-01-11
 summary: false
-tags: 
+tags:
   - JavaScript
   - Vue
 author: svx
