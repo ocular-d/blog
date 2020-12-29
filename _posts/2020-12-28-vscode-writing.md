@@ -16,6 +16,11 @@ tags:
 
 ---
 
+<ImageEmbed caption="VS Code">
+<img src="/vs-code-wip.png" alt="Vs Code" />
+</ImageEmbed>
+
+
 ## Introduction
 
 
