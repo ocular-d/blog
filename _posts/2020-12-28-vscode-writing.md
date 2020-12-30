@@ -1,7 +1,7 @@
 ---
 title: VS Code for (technical) writing
 date: 2020-12-28
-description: How to configure and setup VS Code for (technical) writing
+description: How to configure and setup VS Code for Markdown based (technical) writing
 meta:
   - name: "og:description"
     content: VS Code for technical writing
