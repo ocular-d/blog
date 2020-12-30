@@ -25,6 +25,8 @@ In the same manner that you configure VS Code for reporting coding style violati
 This article showcases how you can use VS Code to catch insensitive, inconsiderate writing,
 check your content against your editorial and content style guides, identify typos and grammatical errors.
 
+*Add info about reading time, number of words, git, etc*
+
 ## Prerequisite
 
 *Add a note that we install everything into the project dir and not global*
