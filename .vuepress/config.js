@@ -52,6 +52,7 @@ module.exports = {
     },
     smoothScroll: true,
     summary: false,
+    sidebarDepth: 1,
     searchPlaceholder: 'Search...',
     nav: [
       {
