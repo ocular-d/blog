@@ -27,16 +27,80 @@ check your content against your editorial and content style guides, identify typ
 
 ## Prerequisite
 
+*Add a note that we install everything into the project dir and not global*
+
 For a fully working setup please make sure to have all needed dependencies installed.
 
 - [Vale](https://docs.errata.ai/vale/about "Link to Vale website")
 - [ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")
 
-[ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")is a meta package,
-if you prefer, you can install all included packages one by one.
+[ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")is a NPM meta package,
+installing the following NPM packages
+
+- remark,
+- remark-cli
+- remark-preset-lint-consistent
+- remark-preset-lint-markdown-style-guide
+- remark-preset-lint-recommended
+- remark-validate-links
+- alex,
+- markdown-link-check
+
+If you prefer, you can install all included packages one by one.
 
 Check the [README](https://github.com/ocular-d/ocld-writing/blob/master/README.md "Link to ocld-writing README on GitHub") for the included packages.
+
+## VS Code Extension
 
 ::: notice Recommendation
 Backup your VS Code configuration and plugins **before** you install this extension!
 :::
+
+Install the [ocular-d extension package](https://marketplace.visualstudio.com/items?itemName=ocular-d.writing-extension-pack)
+for VS Code for creating stunning Markdown based documentation.
+
+### Configuration
+
+Configure the settings via the VS Code UI or by adding the settings below to your *settings.json* file.
+
+You may want to adjust the settings below to your needs!
+
+```json
+{
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "editor.cursorBlinking": "solid",
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "afterDelay",
+    "vale.core.useCLI": true,
+    "vale.server.provideFixes": false,
+    "settingsSync.ignoredExtensions": [
+
+    ],
+    "editor.codeActionsOnSave": null,
+    "editor.rulers": [
+
+        80,
+        160
+      ],
+      "tws.highlightTrailingWhiteSpace": true,
+      "editor.renderWhitespace": "trailing",
+      "alex-linter.noBinary": true,
+      "cSpell.languageSettings": [
+
+      ],
+
+}
+```
+
+### Explanation
+
+*`"telemetry.enableTelemetry": false`* Disable VS Code Telemetry (ADD LINK) \
+*`"telemetry.enableCrashReporter": false`* Disable Telemetry Crash Reporter
+
+| Setting  | Description | Default
+|---------|----------------|-------|
+| telemetry.enableTelemetry: false |  Disable VS Code Telemetry | false |
+| telemetry.enableCrashReporter: false | Disable Telemetry Crash Reporter |
+| workbench.editor.highlightModifiedTabs: true | Highlight modified tab (non-saved) |
