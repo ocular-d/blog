@@ -1,12 +1,15 @@
 {
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
+    "ocld-writing": "^0.0.2",
     "vuepress": "^1.7.1",
     "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-reading-time": "^0.1.1"
   },
   "scripts": {
     "dev": "vuepress dev",
-    "build": "vuepress build"
+    "build": "vuepress build",
+    "remark": "remark _posts",
+    "alex": "alex ./_posts"
   }
 }

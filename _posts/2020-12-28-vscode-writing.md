@@ -20,9 +20,10 @@ tags:
 <img src="/vs-code-wip.png" alt="Vs Code" />
 </ImageEmbed>
 
+In the same manner that you configure VS Code for reporting coding style violations, you can configure it to report writing inconsistencies and validations.
 
-## Introduction
-
+This article showcases how you can use VS Code to catch insensitive, inconsiderate writing,
+check your content against your editorial and content style guides, identify typos and grammatical errors.
 
 ## Extension Pack
 
