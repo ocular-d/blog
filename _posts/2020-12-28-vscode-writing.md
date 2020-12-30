@@ -61,6 +61,8 @@ Backup your VS Code configuration and plugins **before** you install this extens
 Install the [ocular-d extension package](https://marketplace.visualstudio.com/items?itemName=ocular-d.writing-extension-pack)
 for VS Code for creating stunning Markdown based documentation.
 
+*ADD INFO ABOUT ALL THE PLUGINS INCLUDED*
+
 ### Configuration
 
 Configure the settings via the VS Code UI or by adding the settings below to your *settings.json* file.
