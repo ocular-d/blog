@@ -1,4 +1,10 @@
-# TBC
+# Setup
+
+- Clone repository
+- Change into repo
+- Run `yarn install`
+
+For local preview run `yarn dev`
 
 ## GitHub Actions
 
