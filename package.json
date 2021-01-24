@@ -1,8 +1,9 @@
 {
   "devDependencies": {
     "@vuepress/theme-blog": "^2.3.3",
+    "@xiaopanda/vuepress-plugin-code-copy": "^1.0.3",
     "ocld-writing": "^0.0.2",
-    "vuepress": "^1.7.1",
+    "vuepress": "^1.8.0",
     "vuepress-plugin-container": "^2.1.5",
     "vuepress-plugin-reading-time": "^0.1.1"
   },

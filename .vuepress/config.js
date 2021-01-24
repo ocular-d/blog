@@ -2,6 +2,7 @@
 module.exports = {
   plugins: [
     ['vuepress-plugin-reading-time', true],
+    ['@xiaopanda/vuepress-plugin-code-copy', true],
     [
       'vuepress-plugin-container',
       {
