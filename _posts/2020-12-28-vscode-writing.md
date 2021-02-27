@@ -161,9 +161,6 @@ You may want to adjust the settings below to your needs!
 
 ### Explanation
 
-*`"telemetry.enableTelemetry": false`* Disable VS Code Telemetry (ADD LINK) \
-*`"telemetry.enableCrashReporter": false`* Disable Telemetry Crash Reporter
-
 | Setting  | Description | Default
 |---------|----------------|-------|
 | telemetry.enableTelemetry: false |  Disable VS Code Telemetry | false |
