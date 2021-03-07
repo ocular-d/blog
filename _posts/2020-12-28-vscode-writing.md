@@ -65,10 +65,9 @@ Globally on your system:
 
 Locally in your project:
 
-- [ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")
+- [ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to ocld-writing on NPM")
 
-[ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")is a NPM meta package,
-installing the following NPM packages
+ocld-writing is a NPM meta package, installing the following NPM packages
 
 - remark,
 - remark-cli
@@ -126,9 +125,12 @@ for VS Code for creating stunning Markdown based documentation.
 
 ### Configuration
 
+The follow settings are changing some of the default ones, enhancing the user experience
+or needed by certain plugins.
+
 Configure the settings via the VS Code UI or by adding the settings below to your *settings.json* file.
 
-You may want to adjust the settings below to your needs!
+You may want to adjust them settings to your needs!
 
 ```json
 {
@@ -158,17 +160,3 @@ You may want to adjust the settings below to your needs!
 
 }
 ```
-
-### Explanation
-
-Out of the box VS Code has telemetry and a crash reporter (sending crash reports) enabled.
-By setting them to `false` they will send data (hopefully)
-
-| Setting  | Description | Configuration
-|---------|----------------|-------|
-| telemetry.enableTelemetry: false |  Disable VS Code Telemetry | false |
-| telemetry.enableCrashReporter: false | Disable Telemetry Crash Reporter |
-| workbench.editor.highlightModifiedTabs: true | Highlight modified tab (non-saved) |
-
-
-*Add recap/summary at the end*
