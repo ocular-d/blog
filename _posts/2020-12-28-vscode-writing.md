@@ -161,7 +161,10 @@ You may want to adjust the settings below to your needs!
 
 ### Explanation
 
-| Setting  | Description | Default
+Out of the box VS Code has telemetry and a crash reporter (sending crash reports) enabled.
+By setting them to `false` they will send data (hopefully)
+
+| Setting  | Description | Configuration
 |---------|----------------|-------|
 | telemetry.enableTelemetry: false |  Disable VS Code Telemetry | false |
 | telemetry.enableCrashReporter: false | Disable Telemetry Crash Reporter |
