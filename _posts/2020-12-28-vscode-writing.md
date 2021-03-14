@@ -1,6 +1,6 @@
 ---
 title: VS Code for (technical) writing
-date: 2020-12-28
+date: 2021-03-14
 description: How to configure and setup VS Code for Markdown based (technical) writing
 meta:
   - name: "og:description"
@@ -19,8 +19,6 @@ tags:
 <ImageEmbed caption="VS Code">
 <img src="/vs-code-wip.png" alt="VS Code" />
 </ImageEmbed>
-
-*Add better example pic*
 
 ## Intro
 
@@ -53,7 +51,6 @@ check your content against your editorial and content style guides, identify typ
 <img src="/dac2.png" alt="Docs like code" />
 </ImageEmbed>
 
-*Add better example pic, also showing Alex*
 ## Prerequisite
 
 
@@ -121,7 +118,7 @@ for VS Code for creating stunning Markdown based documentation.
 - [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag "Link to matching tag extension") - Highlights matching closing and opening tags
 - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow "Link to indent extension") - Makes indentation easier to read
 - [VuePress Snippets](https://marketplace.visualstudio.com/items?itemName=ocular-d.vuepress-snippets "Link to extension") - Custom VuePress snippets for (technical) writing
-- [ocular-d.writing](https://marketplace.visualstudio.com/items?itemName=ocular-d.writing "Link to extension") - Snippets for (technical) writing with Markdown
+- [Writing Snippets](https://marketplace.visualstudio.com/items?itemName=ocular-d.writing "Link to extension") - Snippets for (technical) writing with Markdown
 
 ### Configuration
 
