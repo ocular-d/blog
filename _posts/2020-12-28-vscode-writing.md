@@ -1,6 +1,6 @@
 ---
 title: VS Code for (technical) writing
-date: 2020-12-28
+date: 2021-03-14
 description: How to configure and setup VS Code for Markdown based (technical) writing
 meta:
   - name: "og:description"
@@ -19,8 +19,6 @@ tags:
 <ImageEmbed caption="VS Code">
 <img src="/vs-code-wip.png" alt="VS Code" />
 </ImageEmbed>
-
-*Add better example pic*
 
 ## Intro
 
@@ -53,7 +51,6 @@ check your content against your editorial and content style guides, identify typ
 <img src="/dac2.png" alt="Docs like code" />
 </ImageEmbed>
 
-*Add better example pic, also showing Alex*
 ## Prerequisite
 
 
@@ -65,10 +62,9 @@ Globally on your system:
 
 Locally in your project:
 
-- [ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")
+- [ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to ocld-writing on NPM")
 
-[ocld-writing](https://www.npmjs.com/package/ocld-writing "Link to package on NPM")is a NPM meta package,
-installing the following NPM packages
+ocld-writing is a NPM meta package, installing the following NPM packages
 
 - remark,
 - remark-cli
@@ -122,13 +118,16 @@ for VS Code for creating stunning Markdown based documentation.
 - [Highlight Matching Tag](https://marketplace.visualstudio.com/items?itemName=vincaslt.highlight-matching-tag "Link to matching tag extension") - Highlights matching closing and opening tags
 - [Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow "Link to indent extension") - Makes indentation easier to read
 - [VuePress Snippets](https://marketplace.visualstudio.com/items?itemName=ocular-d.vuepress-snippets "Link to extension") - Custom VuePress snippets for (technical) writing
-- [ocular-d.writing](https://marketplace.visualstudio.com/items?itemName=ocular-d.writing "Link to extension") - Snippets for (technical) writing with Markdown
+- [Writing Snippets](https://marketplace.visualstudio.com/items?itemName=ocular-d.writing "Link to extension") - Snippets for (technical) writing with Markdown
 
 ### Configuration
 
+The follow settings are changing some of the default ones, enhancing the user experience
+or needed by certain plugins.
+
 Configure the settings via the VS Code UI or by adding the settings below to your *settings.json* file.
 
-You may want to adjust the settings below to your needs!
+You may want to adjust them settings to your needs!
 
 ```json
 {
@@ -158,17 +157,3 @@ You may want to adjust the settings below to your needs!
 
 }
 ```
-
-### Explanation
-
-*`"telemetry.enableTelemetry": false`* Disable VS Code Telemetry (ADD LINK) \
-*`"telemetry.enableCrashReporter": false`* Disable Telemetry Crash Reporter
-
-| Setting  | Description | Default
-|---------|----------------|-------|
-| telemetry.enableTelemetry: false |  Disable VS Code Telemetry | false |
-| telemetry.enableCrashReporter: false | Disable Telemetry Crash Reporter |
-| workbench.editor.highlightModifiedTabs: true | Highlight modified tab (non-saved) |
-
-
-*Add recap/summary at the end*
